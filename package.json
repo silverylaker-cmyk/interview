@@ -1,0 +1,10 @@
+{
+  "name": "ent-intake",
+  "version": "1.0.0",
+  "private": true,
+  "description": "이비인후과 의원 환자 문진 웹앱 (한글 증상 선택 → 영어 의학용어 요약)",
+  "scripts": {
+    "test": "node tests/matcher.test.js",
+    "build": "node scripts/build-single.js"
+  }
+}
